@@ -9,4 +9,4 @@ switch(Order) {
         break;
     default:
         console.log(`Please place your order`)
-}
+};
