@@ -1,4 +1,6 @@
+"use strict";
 // const names: string[] = [];
+Object.defineProperty(exports, "__esModule", { value: true });
 // names.push("Dylan");
 // names.push("Asif");
 // names.push("Waqar");
@@ -20,7 +22,7 @@
 // let head: number = numbers[0]; // no error
 // console.log(head);
 // console.log(numbers);
-var graph = [55.2, 41.3];
-var x = graph[0], y = graph[1];
+const graph = [55.2, 41.3];
+const [x, y] = graph;
 console.log(graph);
 console.log(x);

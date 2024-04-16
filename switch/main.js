@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let Order = "";
+let Order = "Burger";
 switch (Order) {
     case "Pizza":
         console.log(`Pizza will be prepared`);
@@ -11,3 +11,4 @@ switch (Order) {
     default:
         console.log(`Please place your order`);
 }
+;
